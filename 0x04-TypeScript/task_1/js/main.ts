@@ -1,5 +1,5 @@
 //building teacher interface
-interface Teacher {
+export interface Teacher {
   readonly firstName: string;
   readonly lastName: string;
   fullTimeEmployee: boolean;
@@ -44,4 +44,3 @@ class StudentClass implements classInterface {
   }
 
   };
-export { printTeacher, StudentClass };
