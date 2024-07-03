@@ -43,4 +43,5 @@ class StudentClass implements classInterface {
     return "Currently working";
   }
 
-}
+  };
+export { printTeacher, StudentClass };
